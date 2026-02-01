@@ -1,0 +1,62 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="256" cy="256" r="256" />
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#circleClip)">
+    <!-- Background: Vibrant Ocean Gradient -->
+    <rect width="512" height="512" fill="#00B4D8"/>
+    <circle cx="256" cy="550" r="300" fill="#0096C7"/>
+    
+    <!-- Shoulders/Clothes -->
+    <path d="M106 512 L106 450 Q106 400 156 400 L356 400 Q406 400 406 450 L406 512 Z" fill="#E63946"/>
+    <path d="M156 400 L200 450 L312 450 L356 400" fill="none" stroke="#F1FAEE" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Neck -->
+    <rect x="226" y="350" width="60" height="60" fill="#FFD6A5"/>
+    
+    <!-- Head -->
+    <circle cx="256" cy="280" r="110" fill="#FFD6A5"/>
+    
+    <!-- Beard: Friendly brown goatee -->
+    <path d="M256 390 Q290 390 310 360 L310 350 Q290 370 256 370 Q222 370 202 350 L202 360 Q222 390 256 390 Z" fill="#6D4C41"/>
+    
+    <!-- Mouth: Big Smile -->
+    <path d="M226 310 Q256 340 286 310" fill="none" stroke="#3E2723" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Nose -->
+    <path d="M256 280 L246 300 L266 300 Z" fill="#E6C298"/>
+    
+    <!-- Eyes -->
+    <circle cx="226" cy="260" r="12" fill="#1D3557"/> <!-- Right eye (viewer's left) -->
+    
+    <!-- Eye Patch -->
+    <path d="M270 245 L270 275 L300 275 L300 245 Z" fill="#1D3557" transform="rotate(45 285 260)"/> <!-- Square patch for style? No, make it round -->
+    <circle cx="286" cy="260" r="22" fill="#1D3557"/>
+    <path d="M286 260 L380 180" stroke="#1D3557" stroke-width="4"/> <!-- Strap -->
+    
+    <!-- Bandana: Red with white polka dots -->
+    <path d="M136 240 Q256 160 376 240 L376 220 Q256 120 136 220 Z" fill="#E63946"/> <!-- Top part -->
+    <path d="M136 220 Q256 120 376 220 L376 250 Q256 180 136 250 Z" fill="#E63946"/> <!-- Band -->
+    <!-- Knot -->
+    <path d="M370 230 L410 210 L410 260 L370 250 Z" fill="#E63946"/>
+    
+    <!-- Bandana dots -->
+    <circle cx="200" cy="210" r="5" fill="#FFF" opacity="0.7"/>
+    <circle cx="260" cy="190" r="5" fill="#FFF" opacity="0.7"/>
+    <circle cx="320" cy="210" r="5" fill="#FFF" opacity="0.7"/>
+    
+    <!-- Hook (The namesake!) -->
+    <!-- Placing it prominently -->
+    <g transform="translate(380, 420) rotate(-20)">
+      <path d="M0 0 Q-30 0 -30 -30 Q-30 -80 20 -80" fill="none" stroke="#A8DADC" stroke-width="15" stroke-linecap="round"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="#457B9D"/>
+    </g>
+    
+    <!-- Highlights -->
+    <circle cx="450" cy="60" r="40" fill="#FFF" opacity="0.1"/>
+    <circle cx="470" cy="90" r="10" fill="#FFF" opacity="0.1"/>
+  </g>
+</svg>
